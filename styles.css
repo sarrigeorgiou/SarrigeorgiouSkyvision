@@ -1,0 +1,187 @@
+/* Βασικό Στυλ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1d3557;
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #a8dadc;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero-content button {
+    background: #e63946;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero-content button:hover {
+    background: #d62839;
+}
+
+/* Ενότητες */
+.services, .portfolio, .pricing, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 40px;
+    color: #1d3557;
+}
+
+/* Υπηρεσίες */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    background: #f1faee;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.service-item h3 {
+    margin-bottom: 15px;
+    color: #457b9d;
+}
+
+/* Portfolio */
+.portfolio-gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 200px;
+    height: 150px;
+    background: #a8dadc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d3557;
+    border-radius: 10px;
+}
+
+/* Τιμές */
+.pricing-table {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pricing-item {
+    background: #f1faee;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.pricing-item h3 {
+    margin-bottom: 15px;
+    color: #e63946;
+}
+
+/* Επικοινωνία */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #457b9d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #1d3557;
+}
+
+/* Footer */
+.footer {
+    background: #1d3557;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
